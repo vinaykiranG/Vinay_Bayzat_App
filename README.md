@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Calculator Project
 Overview
 This is a simple calculator application built with React that supports basic arithmetic operations, memory functions, and evaluates complex mathematical expressions using the Shunting Yard algorithm.
@@ -109,3 +110,7 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+=======
+# Vinay_Bayzat_App
+Assignment
+>>>>>>> b88e269058daa49b3e11ed503f2af31a89339844
