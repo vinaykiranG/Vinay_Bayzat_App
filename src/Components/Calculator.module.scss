@@ -1,0 +1,20 @@
+.calculatorContainer {
+  width: 100%;
+  max-width: 800px;
+  background-color: whitesmoke;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  margin: 0 auto;
+  padding: 20px;
+  transition: transform 0.3s ease-in-out;
+
+  @media (max-width: 600px) {
+    max-width: 90%;
+    padding: 15px;
+    border-radius: 10px;
+  }
+
+  &:hover {
+    transform: translateY(-5px);
+  }
+}
