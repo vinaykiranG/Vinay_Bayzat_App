@@ -1,52 +1,57 @@
 Calculator Project
-Overview
-The Calculator Project is a user-friendly web application built with React. It allows users to perform basic arithmetic operations, utilize memory functions, and evaluate complex mathematical expressions.
+
+Description
+A simple calculator application built with React that supports basic arithmetic operations, memory functions, and evaluates complex mathematical expressions using the Shunting Yard algorithm.
 
 Features
-Basic Operations:
-Addition
-Subtraction
-Multiplication
-Division
-Memory Functions:
-M+
-M-
-MR
-MC
-Advanced Calculations:
-Square root
-Percentage
-Calculation History:
-Maintains a history of past calculations.
-Error Handling:
-Manages invalid inputs and operations effectively.
-Technologies Used
-React: Selected for building a dynamic user interface.
-TypeScript: Provides type safety, improving code maintainability.
-Material-UI (MUI): Used for modern component styling.
-BigNumber.js: Ensures precision in arithmetic operations, especially for large and floating-point numbers.
-SCSS Modules: Facilitates modular and maintainable styling.
-How to Run the Project Locally
+Basic operations: Addition, subtraction, multiplication, division
+Memory functions: M+, M-, MR, MC
+Square root and percentage calculations
+History of calculations
+Error handling for invalid inputs and operations
+
+
+Installation
 Prerequisites
-Node.js: Version 14 or later.
-Package Manager: Either npm or yarn.
-Step-by-Step Instructions
-Clone the Repository: Clone the repository from GitHub to your local machine.
-Navigate to the Project Directory: Change to the directory where the repository is located.
-Install Dependencies: Use npm or yarn to install the required dependencies.
-Start the Development Server: Launch the application, which will be accessible in your browser.
+Node.js (v14 or later)
+npm or yarn
+Steps to Run the Project Locally
+
+
+Clone the repository:
+Use the command to clone the repository to your local machine.
+Navigate to the project directory:
+Change to the directory where the cloned repository is located.
+
+
+Install dependencies:
+Run the command to install all necessary packages.
+Start the development server:
+Launch the application, which will be accessible at http://localhost:3000.
 Running Tests
-To execute the unit tests for the calculator functions, run the test command associated with your package manager.
+To run the unit tests for the calculator functions, execute the command associated with your package manager.
 
-Edge Cases Handled
-Division by Zero: Displays an error message when division by zero is attempted.
-Invalid Expressions: Checks for malformed expressions and provides appropriate error messages.
-Square Root of Negative Numbers: Notifies users with an error message when attempting to calculate the square root of a negative number.
+Edge Cases
+The application handles the following edge cases:
+
+Division by Zero: An error is displayed when attempting to divide by zero.
+Invalid Expressions: The app checks for malformed expressions and shows an appropriate error message.
+Square Root of Negative Numbers: An error message is shown when trying to calculate the square root of a negative number.
 Potential Improvements
-Additional Functions: Implement features like exponentiation, logarithms, or trigonometric functions.
-UI Enhancements: Improve the user interface with advanced styling and animations.
-Save Previous Calculations: Introduce functionality to save and retrieve past calculations.
-Enhanced Error Handling: Improve feedback for invalid inputs.
-Conclusion
-This project demonstrates a practical application of React and TypeScript in building a functional calculator. By focusing on user experience and leveraging modern libraries, the application offers both utility and usability.
+If given more time, the following enhancements could be made:
 
+Implement additional mathematical functions such as exponentiation, logarithms, or trigonometric functions.
+Enhance the user interface with more advanced styling and animations.
+Add a feature for saving and retrieving previous calculations.
+Improve error handling and user feedback for invalid inputs.
+Tools and Libraries
+The following tools and libraries were used in this project:
+
+React: For building the user interface, leveraging its component-based architecture.
+TypeScript: For type safety and reducing runtime errors, enhancing development efficiency.
+MUI (Material-UI): To provide a robust component library for quickly building responsive user interfaces.
+
+
+BigNumber.js: To handle large numbers and ensure precision in arithmetic operations, especially important in financial calculations.
+License
+This project is licensed under the MIT License. See the LICENSE file for more details.
