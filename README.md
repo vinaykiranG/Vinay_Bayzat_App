@@ -23,7 +23,7 @@ Clone the repository:
 
 bash
 Copy code
-git clone https://github.com/yourusername/calculator.git
+git clone https://github.com/vinaykiranG/Vinay_Bayzat_App.git
 Navigate to the project directory:
 
 bash
