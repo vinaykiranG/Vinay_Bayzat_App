@@ -1,39 +1,52 @@
 Calculator Project
 Overview
-The Calculator Project is a user-friendly web application built with React that allows users to perform basic arithmetic operations, utilize memory functions, and evaluate complex mathematical expressions.
+The Calculator Project is a user-friendly web application built with React. It allows users to perform basic arithmetic operations, utilize memory functions, and evaluate complex mathematical expressions.
 
 Features
-Basic Operations: Addition, subtraction, multiplication, and division.
-Memory Functions: Includes M+, M-, MR, and MC for memory management.
-Advanced Calculations: Supports square roots and percentages.
-Calculation History: Keeps track of past calculations for user reference.
-Error Handling: Effectively manages invalid inputs and operations.
+Basic Operations:
+Addition
+Subtraction
+Multiplication
+Division
+Memory Functions:
+M+
+M-
+MR
+MC
+Advanced Calculations:
+Square root
+Percentage
+Calculation History:
+Maintains a history of past calculations.
+Error Handling:
+Manages invalid inputs and operations effectively.
 Technologies Used
-React: Chosen for building a dynamic user interface.
-TypeScript: Provides type safety and improves code maintainability.
-Material-UI (MUI): Utilized for a modern design framework to style components.
-BigNumber.js: Ensures precise arithmetic operations, especially for large and floating-point numbers.
+React: Selected for building a dynamic user interface.
+TypeScript: Provides type safety, improving code maintainability.
+Material-UI (MUI): Used for modern component styling.
+BigNumber.js: Ensures precision in arithmetic operations, especially for large and floating-point numbers.
 SCSS Modules: Facilitates modular and maintainable styling.
 How to Run the Project Locally
 Prerequisites
-Make sure you have Node.js (version 14 or later) installed on your machine. You can use either npm or yarn as your package manager.
-
+Node.js: Version 14 or later.
+Package Manager: Either npm or yarn.
 Step-by-Step Instructions
-Clone the repository from GitHub to your local machine.
-Navigate to the project directory where the repository has been cloned.
-Install the required dependencies using npm or yarn.
-Start the development server to launch the application. It will be accessible at the local URL provided in your browser.
+Clone the Repository: Clone the repository from GitHub to your local machine.
+Navigate to the Project Directory: Change to the directory where the repository is located.
+Install Dependencies: Use npm or yarn to install the required dependencies.
+Start the Development Server: Launch the application, which will be accessible in your browser.
 Running Tests
-To run the unit tests for the calculator functions, use the test command provided by your package manager.
+To execute the unit tests for the calculator functions, run the test command associated with your package manager.
 
 Edge Cases Handled
-Division by Zero: The application displays an error message instead of crashing when a division by zero is attempted.
-Invalid Expressions: The application checks for malformed expressions and informs users with appropriate error messages.
-Square Root of Negative Numbers: An error message is displayed when users attempt to calculate the square root of a negative number.
+Division by Zero: Displays an error message when division by zero is attempted.
+Invalid Expressions: Checks for malformed expressions and provides appropriate error messages.
+Square Root of Negative Numbers: Notifies users with an error message when attempting to calculate the square root of a negative number.
 Potential Improvements
-Implement additional mathematical functions such as exponentiation, logarithms, or trigonometric functions.
-Enhance the user interface with more advanced styling and animations.
-Introduce features for saving and retrieving previous calculations.
-Improve error handling and provide better user feedback for invalid inputs.
+Additional Functions: Implement features like exponentiation, logarithms, or trigonometric functions.
+UI Enhancements: Improve the user interface with advanced styling and animations.
+Save Previous Calculations: Introduce functionality to save and retrieve past calculations.
+Enhanced Error Handling: Improve feedback for invalid inputs.
 Conclusion
-This project showcases a practical implementation of React and TypeScript for building a calculator application. By using modern libraries and focusing on user experience, the application offers both functionality and usability.
+This project demonstrates a practical application of React and TypeScript in building a functional calculator. By focusing on user experience and leveraging modern libraries, the application offers both utility and usability.
+
