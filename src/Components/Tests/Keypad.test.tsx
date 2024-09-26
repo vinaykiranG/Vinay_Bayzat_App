@@ -10,7 +10,7 @@ describe('Keypad Component', () => {
 
     test('renders all buttons', () => {
         const { getByText } = render(
-            <Keypad onButtonClick={mockOnButtonClick} />
+            <Keypad onButtonClick={mockOnButtonClick} darkMode={false} />
         );
 
         const buttons = [
@@ -26,7 +26,7 @@ describe('Keypad Component', () => {
 
     test('calls onButtonClick with correct value when a button is clicked', () => {
         const { getByText } = render(
-            <Keypad onButtonClick={mockOnButtonClick} />
+            <Keypad onButtonClick={mockOnButtonClick} darkMode={false} />
         );
 
         const buttonToClick = '5';
@@ -39,7 +39,7 @@ describe('Keypad Component', () => {
         const specialButtons = ['C', 'CE', '=', '+'];
 
         const { getByText } = render(
-            <Keypad onButtonClick={mockOnButtonClick} />
+            <Keypad onButtonClick={mockOnButtonClick} darkMode={false} />
         );
 
         specialButtons.forEach((btn) => {

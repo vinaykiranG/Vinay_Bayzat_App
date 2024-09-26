@@ -29,7 +29,11 @@ Run the command to install all necessary packages.
 Start the development server:
 Launch the application, which will be accessible at http://localhost:3000.
 Running Tests
-To run the unit tests for the calculator functions, execute the command associated with your package manager.
+To run the unit tests for the calculator functions, execute the command 
+
+"npm test -- --watchAll=false" 
+
+ associated with your package manager.
 
 Edge Cases
 The application handles the following edge cases:
