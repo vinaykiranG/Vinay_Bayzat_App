@@ -6,7 +6,11 @@ import { evaluateExpression, formatNumber } from '../utils/Calculator';
 import BigNumber from 'bignumber.js';
 import styles from './Calculator.module.scss';
 
-const Calculator: React.FC = () => {
+interface CalculatorProps {
+  darkMode: boolean;
+}
+
+const Calculator: React.FC<CalculatorProps> = ({ darkMode }) => {
   const [expression, setExpression] = useState<string>('');
   const [result, setResult] = useState<string>('0');
   const [memory, setMemory] = useState<BigNumber>(new BigNumber(0));
@@ -61,10 +65,10 @@ const Calculator: React.FC = () => {
   };
 
   return (
-    <Box className={styles.calculatorContainer}>
+    <Box className={styles.calculatorContainer} sx={{ backgroundColor: darkMode ? '#424242' : '#ffffff' }}>
       <Display expression={expression} result={result} history={history} error={error} />
       <Box mt={2}>
-        <Keypad onButtonClick={handleButtonClick} />
+        <Keypad onButtonClick={handleButtonClick} darkMode={darkMode} />
       </Box>
     </Box>
   );
