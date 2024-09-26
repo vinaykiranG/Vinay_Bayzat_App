@@ -1,5 +1,5 @@
 import BigNumber from 'bignumber.js';
-import { performOperation, evaluateExpression, formatNumber } from './utils/Calculator';
+import { performOperation, evaluateExpression, formatNumber } from '../../utils/Calculator';
 
 describe('Calculator Functions', () => {
   describe('performOperation', () => {

@@ -1,5 +1,5 @@
 import { render, fireEvent } from '@testing-library/react';
-import Keypad from './Components/keypad';
+import Keypad from '../keypad';
 
 describe('Keypad Component', () => {
     let mockOnButtonClick: jest.Mock;
